@@ -1,0 +1,67 @@
+<presets>
+	<group name="Post">
+	<group name="Chunghwa Post">
+		<item name="Post box" type="node">
+			<label text="Insert/edit a post box of Chunghwa Post" />
+			<key key= "amenity" value="post_box" />
+			<key key= "operator" value="中華郵政" />
+			<key key= "operator:en" value="Chunghwa Post" />
+			<key key= "operator:zh" value="中華郵政" />
+			<key key= "brand" value="中華郵政" />
+			<key key= "brand:en" value="Chunghwa Post" />
+			<key key= "brand:zh" value="中華郵政" />
+			<text key= "collection_times" text="Collection times" />
+			<text key= "postal_code" text="Postal code" />
+			<text key= "is_in" text="is in" />
+		</item>
+		<item name="Post office" type="node,closedway">
+			<label text= "Insert/edit a post office of Chunghwa Post" />
+			<key key= "amenity" value="post_office" />
+			<key key= "operator" value="中華郵政" />
+			<key key= "operator:en" value="Chunghwa Post" />
+			<key key= "operator:zh" value="中華郵政" />
+			<key key= "brand" value="中華郵政" />
+			<key key= "brand:en" value="Chunghwa Post" />
+			<key key= "brand:zh" value="中華郵政" />
+			<text key= "name" text="Name" />
+			<text key= "opening_hours" text="Opening Hours" />
+			<text key= "postal_code" text="Postal code" />
+			<text key= "is_in" text="is in" />
+
+		</item>
+	</group>
+	<group name="Other companies">
+		<group name="Sunda post">
+			 <item name="Post office" type="node,closedway">
+				<label text="Insert/edit a post office of Sunda Post" />
+				<key key="amenity" value="post_office" />
+				<key key="operator" value="強訊郵通股份有限公司" />
+				<key key="operator:zh" value="強訊郵通股份有限公司" />
+				<key key="brand" value="上大郵通" />
+				<key key="brand:en" value="Sunda Post" />
+				<key key="brand:zh" value="上大郵通" />
+				<text key= "name" text="Name" />
+				<text key= "opening_hours" text="Opening Hours" />
+				<text key="postal_code" text="Postal code" />
+				<text key="is_in" text="is in" />
+			</item>
+		</group>
+		<group name="Taiwan post">
+			 <item name="Post office" type="node,closedway">
+				<label text="Insert/edit a post office of Taiwan Post" />
+				<key key="amenity" value="post_office" />
+				<key key="operator" value="第一郵控股份有限公司" />
+				<key key="operator:en" value="Taiwan Post" />
+				<key key="operator:zh" value="第一郵控股份有限公司" />
+				<key key="brand" value="第一郵控" />
+				<key key="brand:en" value="Taiwan Post" />
+				<key key="brand:zh" value="第一郵控" />
+				<text key= "name" text="Name" />
+				<text key= "opening_hours" text="Opening Hours" />
+				<text key="postal_code" text="Postal code" />
+				<text key="is_in" text="is in" />
+			</item>
+		</group>
+	</group>
+	</group>
+</presets>
