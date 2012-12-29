@@ -27,7 +27,7 @@
 			<text key= "opening_hours" text="Opening Hours" />
 			<text key= "postal_code" text="Postal code" />
 			<text key= "is_in" text="is in" />
-
+			<combo key= "wheelchair" text="Wheelchair" values="yes, limited, no" />
 		</item>
 	</group>
 	<group name="Other companies">
@@ -44,6 +44,7 @@
 				<text key= "opening_hours" text="Opening Hours" />
 				<text key="postal_code" text="Postal code" />
 				<text key="is_in" text="is in" />
+				<combo key= "wheelchair" text="Wheelchair" values="yes, limited, no" />
 			</item>
 		</group>
 		<group name="Taiwan post">
@@ -60,6 +61,7 @@
 				<text key= "opening_hours" text="Opening Hours" />
 				<text key="postal_code" text="Postal code" />
 				<text key="is_in" text="is in" />
+				<combo key="wheelchair" text="Wheelchair" values="yes, limited, no" />
 			</item>
 		</group>
 	</group>
