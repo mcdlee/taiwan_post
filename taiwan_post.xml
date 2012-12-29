@@ -25,7 +25,11 @@
 			<key key= "brand:zh" value="中華郵政" />
 			<text key= "name" text="Name" />
 			<text key= "opening_hours" text="Opening Hours" />
-			<text key= "postal_code" text="Postal code" />
+            <key key="addr:country" value="TW" />
+			<text key= "addr:postcode" text="Postal code" />
+            <text key= "addr:city" text="City name" />
+            <text key= "addr:street" text="Street name" />
+            <text key= "addr:housenumber" text="House number" />
 			<text key= "is_in" text="is in" />
 			<combo key= "wheelchair" text="Wheelchair" values="yes, limited, no" />
 		</item>
@@ -42,8 +46,11 @@
 				<key key="brand:zh" value="上大郵通" />
 				<text key= "name" text="Name" />
 				<text key= "opening_hours" text="Opening Hours" />
-				<text key="postal_code" text="Postal code" />
-				<text key="is_in" text="is in" />
+                <text key= "addr:postcode" text="Postal code" />
+                <text key= "addr:city" text="City name" />
+                <text key= "addr:street" text="Street name" />
+                <text key= "addr:housenumber" text="House number" />
+                <text key="is_in" text="is in" />
 				<combo key= "wheelchair" text="Wheelchair" values="yes, limited, no" />
 			</item>
 		</group>
@@ -59,6 +66,10 @@
 				<key key="brand:zh" value="第一郵控" />
 				<text key= "name" text="Name" />
 				<text key= "opening_hours" text="Opening Hours" />
+                <text key= "addr:postcode" text="Postal code" />
+                <text key= "addr:city" text="City name" />
+                <text key= "addr:street" text="Street name" />
+                <text key= "addr:housenumber" text="House number" />
 				<text key="postal_code" text="Postal code" />
 				<text key="is_in" text="is in" />
 				<combo key="wheelchair" text="Wheelchair" values="yes, limited, no" />
